@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  padding: 0px 350px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  gap: 40px;
+}
+.right {
+  display: flex;
+  gap: 40px;
+}
+.left img {
+  width: 100px;
+  height: 20px;
+}
+.plex {
+  background-image: url(./msplex1.avif);
+  background-position: 20px;
+  width: 100%;
+  height: 500px;
+}
+.plex p {
+}
+.plex button {
+  width: 150px;
+  height: 40px;
+  background-color: #0467b8;
+  color: white;
+  font-weight: lighter;
+  font-size: large;
+}
+.box {
+  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  height: 500px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 2px;
+}
+.box img{
+  width: 380px;
+  height: 250px;
+
+}
+.box h2{
+  font-size: 31px;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 590;
+}
+.box p{
+  font-family: 'Segoe UI',sans-serif, serif;
+  padding: 0 20px;
+}
+.box button {
+  background-color: #0467b8;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 1.5px;
+  font-weight: 500;
+  font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-size: large;
+  padding: 09px 10px;
+  margin: 20px;
+}
+#sec{
+  width: 250px;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+
+}

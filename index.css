@@ -1,0 +1,21 @@
+h1{
+    font-size: 80px;
+    font-family:'Copperpalte Gothic';
+    margin: 10px ;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+input{
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: medium;
+    padding-left: 40px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-size: medium;
+}

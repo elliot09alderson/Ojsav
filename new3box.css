@@ -1,0 +1,12 @@
+.box{
+height: 25vh;
+width: 25vw;
+border-radius: 10%;
+background-color: rgb(14, 46, 206);
+margin: 20px;
+}
+.bgchange:hover{
+    background-color: brown;
+}
+   
+
